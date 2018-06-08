@@ -2,11 +2,11 @@
 
 package = "luafilesystem"
 
-version = "1.5.0-1"
+version = "1.5.0-2"
 
 -- LuaDist source
 source = {
-  tag = "1.5.0-1",
+  tag = "1.5.0-2",
   url = "git://github.com/LuaDist-testing/luafilesystem.git"
 }
 -- Original source
@@ -21,7 +21,9 @@ description = {
       functions related to file systems offered by the standard Lua
       distribution. LuaFileSystem offers a portable way to access the
       underlying directory structure and file attributes.
-   ]]
+   ]],
+   homepage = "http://www.keplerproject.org/luafilesystem/",
+   license = "MIT"
 }
 
 dependencies = {
