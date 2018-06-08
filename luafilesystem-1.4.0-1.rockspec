@@ -1,15 +1,16 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "luafilesystem"
-version = "1.3.0-1"
+version = "1.4.0-1"
 -- LuaDist source
 source = {
-  tag = "1.3.0-1",
+  tag = "1.4.0-1",
   url = "git://github.com/LuaDist-testing/luafilesystem.git"
 }
 -- Original source
 -- source = {
---    url = "http://luaforge.net/frs/download.php/2679/luafilesystem-1.3.0.tar.gz"
+--    url = "http://luaforge.net/frs/download.php/3158/luafilesystem-1.4.0.tar.gz",
+--    md5 = "6f3d247f27820b8f045431ad81bcd3ad"
 -- }
 description = {
    summary = "File System Library for the Lua Programming Language",
