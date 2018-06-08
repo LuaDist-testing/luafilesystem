@@ -1,16 +1,16 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "luafilesystem"
-version = "1.6.3-2"
+version = "1.7.0-1"
 -- LuaDist source
 source = {
-  tag = "1.6.3-2",
+  tag = "1.7.0-1",
   url = "git://github.com/LuaDist-testing/luafilesystem.git"
 }
 -- Original source
 -- source = {
 --    url = "git://github.com/keplerproject/luafilesystem",
---    tag = "v_1_6_3"
+--    tag = "v1_7_0",
 -- }
 description = {
    summary = "File System Library for the Lua Programming Language",
@@ -20,8 +20,7 @@ description = {
       distribution. LuaFileSystem offers a portable way to access the
       underlying directory structure and file attributes.
    ]],
-   homepage = "http://keplerproject.github.io/luafilesystem",
-   license = "MIT/X11"
+   license = "MIT/X11",
 }
 dependencies = {
    "lua >= 5.1"
