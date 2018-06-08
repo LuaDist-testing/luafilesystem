@@ -1,11 +1,18 @@
-package = "LuaFileSystem"
+-- This file was automatically generated for the LuaDist project.
 
-version = "cvs-2"
+package = "luafilesystem"
 
+version = "1.4.2-1"
+
+-- LuaDist source
 source = {
-   url = "cvs://:pserver:anonymous:@cvs.luaforge.net:/cvsroot/luafilesystem",
-   cvs_tag = "HEAD"
+  tag = "1.4.2-1",
+  url = "git://github.com/LuaDist-testing/luafilesystem.git"
 }
+-- Original source
+-- source = {
+--    url = "http://luaforge.net/frs/download.php/3931/luafilesystem-1.4.2.tar.gz",
+-- }
 
 description = {
    summary = "File System Library for the Lua Programming Language",
