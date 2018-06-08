@@ -2,16 +2,16 @@
 
 package = "luafilesystem"
 
-version = "1.6.1-1"
+version = "1.6.2-1"
 
 -- LuaDist source
 source = {
-  tag = "1.6.1-1",
+  tag = "1.6.2-1",
   url = "git://github.com/LuaDist-testing/luafilesystem.git"
 }
 -- Original source
 -- source = {
---    url = "https://github.com/downloads/keplerproject/luafilesystem/luafilesystem-1.6.1.tar.gz",
+--    url = "https://github.com/downloads/keplerproject/luafilesystem/luafilesystem-1.6.2.tar.gz",
 -- }
 
 description = {
