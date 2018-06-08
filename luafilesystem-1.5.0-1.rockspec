@@ -1,10 +1,18 @@
-package = "LuaFileSystem"
+-- This file was automatically generated for the LuaDist project.
 
-version = "cvs-2"
+package = "luafilesystem"
 
+version = "1.5.0-1"
+
+-- LuaDist source
 source = {
-   url = "git://github.com/keplerproject/luafilesystem.git",
+  tag = "1.5.0-1",
+  url = "git://github.com/LuaDist-testing/luafilesystem.git"
 }
+-- Original source
+-- source = {
+--    url = "http://cloud.github.com/downloads/keplerproject/luafilesystem/luafilesystem-1.5.0.tar.gz",
+-- }
 
 description = {
    summary = "File System Library for the Lua Programming Language",
@@ -22,5 +30,6 @@ dependencies = {
 
 build = {
    type = "module",
-   modules = { lfs = "src/lfs.c" }
+   modules = { lfs = "src/lfs.c" },
+   copy_directories = { "doc", "tests" }
 }
